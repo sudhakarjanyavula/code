@@ -35,7 +35,7 @@ print "Enter Number of Rows : "
 rows = gets.chomp.to_i
 for i in 0..rows
     for j in 0..(rows-i-1)
-        print " "
+        print "  "
     end
     for j in 1..(2*i+1)
         print "* "
